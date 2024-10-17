@@ -898,7 +898,7 @@ a.nav-btn {
   flex-wrap: wrap;
   align-items: center;
   border-bottom: 1px solid #e7e7e7;
-  background: url('../images/comp-point.png') no-repeat
+  background: url(../images/comp-point.png) no-repeat
     22px 25px;
 }
 .s5Col1 ul li:last-child {

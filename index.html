@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <link rel="icon" type="image/png" href="./assets/images/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Get Nexure Foot Massage Now!</title>
+  <title>Get QuikHeat Pro Now!</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
 
   <link rel="stylesheet" href="./assets/css/bulma.min.css">
-  <link rel="stylesheet" href="./assets/css/custom.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
 
   <style>
     .theme-light {
@@ -28,9 +28,119 @@
     }
   </style>
 
+
+
+  <script async="" src="./assets/js/ins.js"></script>
+
+  <script async="" custom-element="amp-web-push" src="./assets/js/amp-web-push-0.1.js"></script>
 </head>
 
-<body class="interstitial theme-light">
+<body class="interstitial theme-light"><amp-web-push id="amp-web-push" layout="nodisplay"
+    helper-iframe-url="/helper-iframe.html?partnerName=gogogadgetsnl"
+    permission-dialog-url="/permission-dialog.html?partnerName=gogogadgetsnl-NAME&amp;lang=en_US&amp;isMobile=true&amp;amp=true&amp;VAPIDPublicKey=PARTNER_VAPID_PUBLIC_KEY"
+    service-worker-url="/static/insider-sw-sdk.js"></amp-web-push>
+
+
+
+
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () {
+        (c[a].q = c[a].q || []).push(arguments)
+      };
+      t = l.createElement(r);
+      t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "jk4sfzxg32");
+  </script>
+
+
+  <script type="text/javascript" src="./assets/js/everflow.js"></script>
+  <script type="text/javascript">
+    const getCookie = (cname) => {
+      var name = cname + '=';
+      var decodedCookie = decodeURIComponent(document.cookie);
+      var ca = decodedCookie.split(';');
+
+      for (var i = 0; i
+
+        <
+        ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+          c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+          return c.substring(name.length, c.length);
+        }
+      }
+      return '';
+    };
+
+
+    let transactionId = EF.urlParameter('_ef_transaction_id') || EF.urlParameter('transaction_id') || getCookie('clickId')
+
+    EF.click({
+      offer_id: EF.urlParameter('oid'),
+      affiliate_id: EF.urlParameter('pub_id') || EF.urlParameter('affid'),
+      sub1: EF.urlParameter('sub1'),
+      sub2: EF.urlParameter('sub2'),
+      sub3: EF.urlParameter('sub3'),
+      sub4: EF.urlParameter('sub4'),
+      sub5: EF.urlParameter('sub5'),
+      uid: EF.urlParameter('uid'),
+      source_id: EF.urlParameter('source_id'),
+      transaction_id: transactionId,
+    })
+      .then((createdTransactionId) => {
+        if (!transactionId && createdTransactionId && typeof createdTransactionId === 'string') {
+          const url = new URL(window.location);
+          url.searchParams.set('transaction_id', createdTransactionId);
+          window.history.pushState(null, '', url.toString());
+        }
+      });
+  </script>
+
+  <script type="text/javascript">
+    (function (c, l, a, r, i, t, y) {
+      c[a] = c[a] || function () {
+        (c[a].q = c[a].q || []).push(arguments)
+      };
+      t = l.createElement(r);
+      t.async = 1;
+      t.src = "https://www.clarity.ms/tag/" + i;
+      y = l.getElementsByTagName(r)[0];
+      y.parentNode.insertBefore(t, y);
+    })(window, document, "clarity", "script", "inbx39ye45");
+  </script>
+  <script src="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js
+    "></script>
+  <link href="
+    https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css
+    " rel="stylesheet">
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var elms = document.getElementsByClassName('splide');
+
+      for (var i = 0; i < elms.length; i++) {
+        new Splide(elms[i], {
+          perPage: window.innerWidth > 1024 ? 3 : 1,
+          breakpoints: {
+            1024: {
+              perPage: 1,
+            },
+          },
+          pagination: false,
+        }).mount();
+      }
+    });
+  </script>
+  <script src="./assets/js/jquery-3.5.0.min.js"></script>
+
+
 
   <div class="topStrip">
     <div class="container has-text-centered">
@@ -39,20 +149,25 @@
       </div>
     </div>
   </div>
-
+  <!------TOP-FIX-BAR------>
   <div class="top-fix-bar">
     <div class="header is-flex">
       <div class="container is-flex is-align-items-center is-justify-content-space-around">
-        <img src="./assets/images/logo.png" class="logo brand-logo">
+        <img src="./assets/images/quikheatpro-logo-color-black-3x.png" class="logo">
         <div class="show-desk">
           <ul class="topMenu scroller show-desk">
+
             <li><a href="#overview">Overview</a></li>
+
             <li><a href="#features">Features</a></li>
+
             <li><a href="#reviews">Reviews</a></li>
+
             <li><a href="#FAQ">FAQ</a></li>
-            <!-- <li><a href="#comparison">Comparison</a></li> -->
+
           </ul>
         </div>
+
         <div class="show-tab show-mob">
           <div class="mob-mnu-ic">
             <button class="dl-trigger" id="mobMenuBtn">
@@ -61,23 +176,26 @@
               <div class="bar3"></div>
             </button>
           </div>
+
           <ul class="mobilemenu">
+
             <li><a href="#overview">Overview</a></li>
+
             <li><a href="#features">Features</a></li>
+
             <li><a href="#reviews">Reviews</a></li>
+
             <li><a href="#FAQ">FAQ</a></li>
-            <li><a href="#comparison">Comparison</a></li>
+
           </ul>
         </div>
         <a href="#" class="nav-btn show-desk">ORDER NOW</a>
       </div>
     </div>
   </div>
-
-  <div class="banner"
-    style="background: url('./assets/images/2000x650-header-bg-clean-1.png'); color:#000000!important;">
+  <div class="banner" style="background: url(./assets/images/2000x650-header-bg.png); color:#ffffff!important;">
     <div class="container is-flex is-justify-content-center">
-      <div class="banner-left" style="color: white;">
+      <div class="banner-left">
         <div class="bnrStar">
           <img src="./assets/images/5_stars.png" alt="" width="89" height="15">4.9 based on 2000+
           <span class="hide-mob">Verified</span> Reviews
@@ -88,23 +206,30 @@
         </div>
         <div class="bnr-mob-div is-hidden-desktop">
 
-          <img src="./assets/images/560x650-header-product-v2-1.png" class="fadeInUp" width="565" height="724">
+          <img src="./assets/images/560x650-header-img.png" class="fadeInUp" width="565" height="724">
 
         </div>
         <ul class="bnrList">
+
           <li>Cheap Solution!</li>
+
           <li>60 Seconds Cool Off</li>
+
           <li>Multi Protection Safety System</li>
+
           <li>Compact and Powerful</li>
+
           <li>Low noise</li>
+
           <li>Plug in, no cables!</li>
+
         </ul>
         <div class="btnBox hide-mob">
           <a href="#" class="button cta-button">
             Order now &amp; Save Up To 70%
             <img src="./assets/images/btn-arw.png" class="btn-arw" width="34" height="33"></a>
           <div class="btn-txt">
-            <p class="btn-text1">Ships by <span class="date-div"></span></p>
+            <p class="btn-text1">Ships by <span>Oct 17</span></p>
             |
             <p class="btn-text2">
               <img src="./assets/images/Shape.png" class="hourglass" width="10" height="14"> Stock:
@@ -114,29 +239,46 @@
         </div>
       </div>
       <div class="is-hidden-touch is-flex is-justify-content-center is-align-items-center">
-        <img src="./assets/images/560x650-header-product-v2-1.png" class="fadeInUp" width="565" height="724">
+        <img src="./assets/images/560x650-header-img.png" class="fadeInUp" width="565" height="724">
       </div>
     </div>
   </div>
 
   <div class="ftrSec">
     <div class="container">
-      <p class="ftrText has-text-centered mb-5 pb-4">As Seen On</p>
+      <p class="ftrText has-text-centered">As Seen On</p>
       <ul class="ftrList">
-        <li><img src="./assets/images/1.svg" width="160" class="logo1"></li>
-        <li><img src="./assets/images/2.svg" width="139" class="logo2"></li>
-        <li><img src="./assets/images/3.svg" width="170" class="logo3"></li>
-        <li><img src="./assets/images/4.svg" width="48" class="logo4"></li>
-        <li><img src="./assets/images/5.svg" width="383" class="logo5"></li>
+        <li><img src="./assets/images/1.svg" alt=""></li>
+        <li><img src="./assets/images/2.svg" alt=""></li>
+        <li><img src="./assets/images/3.svg" alt=""></li>
+        <li><img src="./assets/images/4.svg" alt=""></li>
+        <li><img src="./assets/images/5.svg" alt=""></li>
       </ul>
     </div>
   </div>
+  <style>
+    .ftrSec li img {
+      height: 100px;
+      object-fit: contain;
+    }
 
+    .ftrSec li {
+      margin: 0 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .ftrSec li img {
+        margin: 1em;
+        height: 40px;
+      }
+    }
+  </style>
   <div class="section1" id="overview">
     <div class="container is-flex is-justify-content-center is-align-items-center">
       <div class="s1Left is-hidden-touch mr-6">
         <img src="./assets/images/elipse.svg" class="wow fadeInUp" style="border-radius: 5px">
-        <img src="./assets/images/400x400-product.png" class="s1Prod wow fadeInUp" width="391" height="450">
+
+        <img src="./assets/images/400x400-img.png" class="s1Prod wow fadeInUp" width="391" height="450">
 
       </div>
       <div class="s1Right">
@@ -144,31 +286,32 @@
         <p class="commonHead">Keep Warm Through Winter with Our Innovative Heater!</p>
         <div class="s1Left is-hidden-desktop">
           <img src="./assets/images/elipse.svg" class="wow fadeInUp my-5">
-          <img src="./assets/images/400x400-product.png" class="s1Prod" width="391" height="450">
+
+          <img src="./assets/images/400x400-img.png" class="s1Prod" width="391" height="450">
 
         </div>
         <div class="commonText">
-          <p>Scientists say this winter could be <b>“exceptionally cold”</b> and <b>“last longer than normal"</b>. Our
-            traditional
-            heating is outdated. It is inefficient, slow to heat up, and becoming more costly to run every year. You
-            can’t even move your heating around the house with you or take it outside!
-          </p>
+          <p><span style="color:rgb(51, 51, 51)">Scientists say this winter could be </span><b>“exceptionally cold”</b>
+            and <b>“last longer than normal"</b>. Our traditional heating is outdated. It is inefficient, slow to heat
+            up, and becoming more costly to run every year. You can’t even move your heating around the house with you
+            or take it outside!‎‏‏‎</p>
           <p>That's why we are bringing to you QuikHeat Pro! A premium compact heater that will bring quick heat to your
-            home much cheaper and more efficient!</p>
-          <p><b>The Secret to Save Money and Keep Your Bill Low!</b></p>
-          <p>Don’t like getting out of the shower on cold mornings? Are you feeling that cold breeze when working or
-            trying to relax? And worse, your heating billing is just increasing? So <b>stop scrolling and check QuikHeat
-              Pro Now!</b></p>
-          <p>This compact, cord-free portable heater is small in size but big on heat, and it can save you money on your
-            heating bills. The QuikHeat Pro Heater uses a unique design that allows it to draw heat from the wall
-            outlet, so it doesn’t need a lot of electricity to operate. It also has a built-in fan that circulates the
-            heat around the room, so you’ll feel warm and comfortable in no time.</p>
+            home much cheaper and more efficient!‏</p>
+          <p><b><span style="color:rgb(37, 37, 37)">The Secret to Save Money and Keep Your Bill Low!</span></b></p>
+          <p><span style="color:rgb(51, 51, 51)">Don’t like getting out of the shower on cold mornings? Are you feeling
+              that cold breeze when working or trying to relax?�&nbsp;And worse, your heating billing is just
+              increasing? So </span><b>stop scrolling and check </b><b>QuikHeat Pro</b><b> Now! </b></p>
+          <p><span style="color:#151515">This compact, cord-free portable heater is small in size but big on heat, and
+              it can save you money on your heating bills. The QuikHeat Pro Heater uses a unique design that allows it
+              to draw heat from the wall outlet, so it doesn’t need a lot of electricity to operate. It also has a
+              built-in fan that circulates the heat around the room, so you’ll feel warm and comfortable in no
+              time.</span></p>
         </div>
         <div class="btnBox hide-mob">
           <a href="#" class="button cta-button">Order now &amp; Save Up To 70%
             <img src="./assets/images/btn-arw.png" class="btn-arw" width="34" height="33"></a>
           <div class="btn-txt">
-            <p class="btn-text1">Ships by <span class="date-div"></span></p>
+            <p class="btn-text1">Ships by <span>Oct 17</span></p>
             |
             <p class="btn-text2">
               <img src="./assets/images/Shape.png" class="hourglass" width="10" height="14"> Stock:
@@ -181,8 +324,6 @@
       </div>
     </div>
   </div>
-
-
   <section style="background-color: #131314;" id="features">
     <div class="container-xl mx-auto is-max-widescreen p-4" style="color: #ffffff">
       <div
@@ -194,7 +335,7 @@
       <div class="columns is-2 mt-5 is-flex is-flex-direction-column-mobile">
         <div
           class="column is-4 is-flex is-justify-content-center is-align-items-center order-2 order-1-mobile is-hidden-mobile">
-          <img src="./assets/images/300x600.png" alt="">
+          <img src="./assets/images/300x600-features-img.png" alt="">
         </div>
         <div class="column is-4 order-2-mobile order-1 pb-0">
 
@@ -205,8 +346,8 @@
             <div>
               <h2 class="has-text-weight-bold is-size-4 is-size-5-mobile has-text-centered-mobile pt-3"
                 style="color: #ffffff">Adjustable Thermostat</h2>
-              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile"><span class="repText">Nexure</span>
-                Temperature(comfort zone) anywhere between 60 degrees and 90 degrees Fahrenheit</div>
+              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">Temperature(comfort zone) anywhere
+                between 60 degrees and 90 degrees Fahrenheit</div>
             </div>
           </div>
 
@@ -216,9 +357,8 @@
             <div>
               <h2 class="has-text-weight-bold is-size-4 is-size-5-mobile has-text-centered-mobile pt-3"
                 style="color: #ffffff">Built-In Timer Function</h2>
-              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">Your <span
-                  class="repText">Nexure</span> Set QuikHeat Pro to automatically shut off anytime from 1 to 12 hours
-              </div>
+              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">Set QuikHeat Pro to automatically
+                shut off anytime from 1 to 12 hours</div>
             </div>
           </div>
 
@@ -228,9 +368,8 @@
             <div>
               <h2 class="has-text-weight-bold is-size-4 is-size-5-mobile has-text-centered-mobile pt-3"
                 style="color: #ffffff">60 Seconds Cool Off</h2>
-              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">This breakthrough <span
-                  class="repText">Nexure</span> Safety First! Before turning off, QuikHeat Pro has a 60 seconds cool
-                off.</div>
+              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">Safety First! Before turning off,
+                QuikHeat Pro has a 60 seconds cool off.</div>
             </div>
           </div>
 
@@ -253,9 +392,9 @@
               class="mr-4 s2RowImg">
             <div>
               <h2 class="has-text-weight-bold is-size-4 is-size-5-mobile has-text-centered-mobile pt-3"
-                style="color: #ffffff">Cheap Solution </h2>
-              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">The <span
-                  class="repText">Nexure</span> Heat around you without having to warm the whole room!</div>
+                style="color: #ffffff">Cheap Solution</h2>
+              <div class="has-text-centered-mobile pt-3 is-size-5 is-size-6-mobile">Heat around you without having to
+                warm the whole room!</div>
             </div>
           </div>
 
@@ -274,7 +413,6 @@
       </div>
     </div>
   </section>
-
   <div class="container-2xl is-clipped">
     <div class="is-flex columns is-flex-wrap-wrap is-justify-content-center">
 
@@ -298,7 +436,7 @@
           <div class="s4LeftInner">
             <div class="secName">SAVE YOUR WALLET</div>
             <div class="commonHead column p-0 is-8-mobile">Save Money Every Day</div>
-            <div class="commonText">Enjoy happy, cozy warmth day and night & save money every month</div>
+            <div class="commonText">Enjoy happy, cozy warmth day and night &amp; save money every month</div>
           </div>
 
         </div>
@@ -324,8 +462,7 @@
           <div class="s4RightInner">
             <div class="secName">VERY EASY SETUP</div>
             <div class="commonHead column p-0 is-8-mobile">Plug it and start using it!</div>
-            <div class="commonText">Take charge of your wallet and <br>
-              save money today!</div>
+            <div class="commonText">Take charge of your wallet and <br> save money today!</div>
           </div>
 
           <img src="" class="show-mob s4RightBg" alt="">
@@ -335,8 +472,6 @@
 
     </div>
   </div>
-
-
   <div class="section5" id="comparision">
     <div class="container">
       <div class="secName">COMPARISON</div>
@@ -348,14 +483,23 @@
       <div class="s5CompBox">
         <div class="s5Col1">
           <ul>
+
             <li>Cheap Heating Solution</li>
+
             <li>Multi Protection Safety System</li>
-            <li>Easy to use & no cable</li>
+
+            <li>Easy to use &amp; no cable</li>
+
             <li>Low Noise</li>
+
             <li>Stops muscle spasms </li>
+
             <li>Reduces Cost $$$</li>
-            <li>Led Display </li>
+
+            <li>Led Display</li>
+
             <li>Compact Size</li>
+
           </ul>
         </div>
         <div class="s5Col2" style="background-color: #32B9BC;">
@@ -364,14 +508,23 @@
             <p class="is-size-5 is-size-7-mobile">QuikHeat Pro</p>
           </div>
           <ul>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
           </ul>
         </div>
 
@@ -381,14 +534,23 @@
             <p>Competitor <span class="hide-mob">1</span></p>
           </div>
           <ul>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
           </ul>
         </div>
 
@@ -398,20 +560,28 @@
             <p>Competitor 2</p>
           </div>
           <ul>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-chk.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
             <li><img src="./assets/images/comp-cross.png" width="33" height="28"></li>
+
           </ul>
         </div>
       </div>
     </div>
   </div>
-
   <div class="section6">
     <div class="container-2xl">
       <div class="container">
@@ -430,7 +600,7 @@
               <img src="./assets/images/btn-arw.png" class="btn-arw" width="34" height="33">
             </a>
             <div class="btn-txt lightText has-text-white">
-              <p class="btn-text1">Ships by <span class="date-div"></span></p> |
+              <p class="btn-text1">Ships by <span>Oct 17</span></p> |
               <p class="btn-text2"><img src="./assets/images/Shape.png" class="hourglass" width="10" height="14"> Stock:
                 <span>Only 53 Left!</span>
               </p>
@@ -440,61 +610,68 @@
       </div>
     </div>
   </div>
-
-
   <section class="has-text-centered section" id="reviews">
     <div class="container">
       <div class="secName">CUSTOMER TESTIMONIALS</div>
-      <div class="commonHead is-size-3 mb-2">What QuikHeat Pro Portable Heater Owners Say</div>
-      <div class="s7Mid">
-        <div class="testBox">
-
-          <div class="testCol">
-            <img src="./assets/images/350x350-3x-testimonials-1.png" class="testImage" width="370" height="369">
-            <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
-            <div class="commonText testhead" style="font-weight: 400;">Happy how powerful it is!</div>
-            <div class="commonText">This is an extremely powerful heater, heats the room in like 10 minutes. The wife is
-              never cold anymore, not with the QuikHeat Pro. It is small enough but emits heat like an oven, we love it
-              and highly recommend it</div>
-            <div class="testName">Matt R.<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
-                Buyer</span></div>
-          </div>
-
-          <div class="testCol">
-            <img src="./assets/images/350x350-3x-testimonials-2.png" class="testImage" width="370" height="369">
-            <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
-            <div class="commonText testhead" style="font-weight: 400;">My granddaughter is happy!</div>
-            <div class="commonText">I bought this for my granddaughter since her room is always cold. Within 10 minutes
-              her bedroom was nice & toasty. Great product!</div>
-            <div class="testName">Lynn<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
-                Buyer</span></div>
-          </div>
-
-          <div class="testCol">
-            <img src="./assets/images/350x350-3x-testimonials-3.png" class="testImage" width="370" height="369">
-            <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
-            <div class="commonText testhead" style="font-weight: 400;">Always warm in winter!</div>
-            <div class="commonText"> bought 4, for our office and home to add extra warming during the cold winter days.
-              They did it perfectly and fast.
-            </div>
-            <div class="testName">Martha<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
-                Buyer</span></div>
-          </div>
-
-        </div>
+      <div class="commonHead is-size-3 mb-6" style="text-wrap: balance;">What QuikHeat Pro Portable Heater Owners Say
       </div>
+      <section class="splide">
+        <div class="splide__track">
+          <ul class="splide__list">
+
+            <li class="splide__slide px-2">
+              <div class="is-flex is-flex-direction-column is-align-items-center">
+                <img src="./assets/images/350x350-3x-testimonials-1.png" class="testImage mx-2" width="370"
+                  height="369">
+                <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
+              </div>
+              <div class="commonText testhead">Happy how powerful it is!</div>
+              <div class="commonText">This is an extremely powerful heater, heats the room in like 10 minutes. The wife
+                is never cold anymore, not with the QuikHeat Pro. It is small enough but emits heat like an oven, we
+                love it and highly recommend it</div>
+              <div class="testName">Matt R.<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
+                  Buyer</span></div>
+            </li>
+
+            <li class="splide__slide px-2">
+              <div class="is-flex is-flex-direction-column is-align-items-center">
+                <img src="./assets/images/350x350-3x-testimonials-2.png" class="testImage mx-2" width="370"
+                  height="369">
+                <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
+              </div>
+              <div class="commonText testhead">My granddaughter is happy!</div>
+              <div class="commonText">I bought this for my granddaughter since her room is always cold. Within 10
+                minutes her bedroom was nice &amp; toasty. Great product!</div>
+              <div class="testName">Lynn<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
+                  Buyer</span></div>
+            </li>
+
+            <li class="splide__slide px-2">
+              <div class="is-flex is-flex-direction-column is-align-items-center">
+                <img src="./assets/images/350x350-3x-testimonials-3.png" class="testImage mx-2" width="370"
+                  height="369">
+                <img src="./assets/images/5_stars.png" class="testStar" width="102" height="18">
+              </div>
+              <div class="commonText testhead">Always warm in winter!</div>
+              <div class="commonText"> bought 4, for our office and home to add extra warming during the cold winter
+                days. They did it perfectly and fast.</div>
+              <div class="testName">Martha<img src="./assets/images/verified.png" width="13" height="16"><span>Verified
+                  Buyer</span></div>
+            </li>
+
+          </ul>
+        </div>
+      </section>
       <div class="btnBox hide-mob">
         <a href="#" class="button cta-button">Order now &amp; Save Up To 70%</a>
         <div class="btn-txt">
-          <p class="btn-text1">Ships by <span class="date-div"></span></p> |
+          <p class="btn-text1">Ships by <span>Oct 17</span></p> |
           <p class="btn-text2"><img src="./assets/images/Shape.png" class="hourglass" width="10" height="14">
             Stock: <span>Only 53 Left!</span></p>
         </div>
       </div>
     </div>
   </section>
-
-
   <section class="mb-6 container" id="FAQ">
     <p class="secName has-text-centered">WE’VE ALL THE ANSWERS</p>
     <p class="commonHead has-text-centered mb-5">Frequently Asked Question</p>
@@ -526,7 +703,7 @@
       </details>
 
       <details class="box p-1" style="cursor: pointer;">
-        <summary class="has-text-weight-bold p-3 is-size-7-mobile">4. Question: Where should I plug it in?</summary>
+        <summary class="has-text-weight-bold p-3 is-size-7-mobile">4. Question: Where should I plug it in? </summary>
         <div class="faq-container_inner p-5 is-size-7-mobile">
           <p>QuikHeat Pro is designed for in-wall outlet use only. To reduce the risk of fire or electric shock connect
             directly to a ground three-prong wall outlet. Do NOT use with an extension cord. Please read all the
@@ -537,7 +714,8 @@
       <details class="box p-1" style="cursor: pointer;">
         <summary class="has-text-weight-bold p-3 is-size-7-mobile">5. Question: How can I track my order?</summary>
         <div class="faq-container_inner p-5 is-size-7-mobile">
-          <p>When your order ships, you will receive an email confirmation including a shipment tracking number, and a website where you can monitor the status of your shipment.</p>
+          <p>When your order ships, you will receive an email confirmation including a shipment tracking number, and a
+            website where you can monitor the status of your shipment.</p>
         </div>
       </details>
 
@@ -545,54 +723,60 @@
     <div class="has-text-centered mt-5 is-hidden-touch">
       <a href="#" class="button cta-button">Order now &amp; Save Up To 70%</a>
       <div class="btn-txt">
-        <p class="btn-text1">Ships by <span class="date-div"></span></p> |
+        <p class="btn-text1">Ships by <span>Oct 17</span></p> |
         <p class="btn-text2"><img src="./assets/images/Shape.png" class="hourglass" width="10" height="14">
           Stock: <span>Only 53 Left!</span></p>
       </div>
     </div>
   </section>
-
-
-
   <div class="navbar is-sticky-bottom is-hidden-desktop">
-    <div id="ctabtn-mob" style="position: fixed;">
-      <a href="#" class="pulse comn-btn is-flex is-justify-content-center is-align-items-center">Order Your Nexsure
-        Now!</a>
+    <div id="ctabtn-mob">
+      <a href="#" class="pulse comn-btn is-flex is-justify-content-center is-align-items-center">Get QuikHeat
+        Pro Now!</a>
       <div class="btn-txt is-flex is-justify-content-center is-align-items-center">
-        <p class="btn-text1">Ships by <span class="date-div"></span></p> |
+        <p class="btn-text1">Ships by <span>Oct 17</span></p> |
         <p class="btn-text2"><img src="./assets/images/Shape.png" class="hourglass" width="10" height="14">
           Stock: <span>Only 53 Left!</span></p>
       </div>
     </div>
   </div>
-
-
   <footer class="footer mt-4">
     <div class="container">
       <div class="columns">
         <div class="column is-4">
           <h2 class="has-text-weight-bold">LINKS</h2>
           <ul>
-            <li><a href="#" target="_blank"> Contact Us </a></li>
-            <li><a href="#" target="_blank"> Terms &amp; Conditions </a></li>
-            <li><a href="#" target="_blank"> Privacy Policy </a></li>
-            <li><a href="#" target="_blank"> Returns &amp; Refunds </a></li>
-            <li><a href="#" target="_blank">Affiliate</a></li>
+            <li><a href="" target="_blank"> Contact Us </a></li>
+            <li>
+              <a href="" target="_blank"> Terms &amp; Conditions </a>
+            </li>
+            <li><a href="" target="_blank"> Privacy Policy </a></li>
+            <li>
+              <a href="" target="_blank"> Returns &amp; Refunds </a>
+            </li>
+
+            <li>
+              <a href="" target="_blank">
+                Affiliate
+              </a>
+            </li>
+
+
           </ul>
         </div>
         <div class="column is-4">
           <h2 class="has-text-weight-bold">GUARANTEE</h2>
           <p>We offer a 30-day money-back guarantee.</p>
-          <p>*Please follow our <a href="#" class="has-text-link">Return &amp; Refund</a> policy</p>
+          <p>*Please follow our <a href="" class="has-text-link">Return &amp;
+              Refund</a> policy</p>
         </div>
         <div class="column is-4">
-          <img class="brand-logo" src="./assets/images/logo.png" alt="" style="max-height: 75px; width: 250px;">
+          <img src="./assets/images/quikheatpro-logo-color-black-3x.png" alt="" style="max-height: 75px; width: 250px;">
           <p>Copyright © QuikHeat Pro | All Rights Reserved</p>
         </div>
       </div>
     </div>
   </footer>
-
   <style>
     footer.footer {
       background: var(--color-secondary);
@@ -603,51 +787,34 @@
       color: var(--font-color);
     }
   </style>
-
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-  <script src="./assets/js/custom.js"></script>
   <script>
-    // Get the current date in the desired format
-    const options = { month: 'short', day: 'numeric' };
-    const today = new Date();
-    const formattedDate = today.toLocaleDateString('en-US', options);
-
-    // Get all div elements with the class 'date-div'
-    const dateDivs = document.querySelectorAll('.date-div');
-
-    // Loop through each div and insert the date
-    dateDivs.forEach(div => {
-      div.innerText = `${formattedDate}`;
+    $(document).ready(() => {
+      // Add GET vars to links
+      $('a').each(function (i, e) {
+        let href = $(e).attr('href');
+        if (href != null && href.length > 0 && href.indexOf('checkout') >= 0) {
+          $(e).attr('href', getCheckoutUrl());
+        }
+      });
     });
   </script>
-  <script>
-    function getQueryVariable(variable) {
-      try {
-        var query = window.self.location.search.substring(1);
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4GN4RZJ" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 
-        var vars = query.split("&");
-        for (var i = 0; i < vars.length; i++) {
-          var pair = vars[i].split("=");
-          if (pair[0] == variable) {
-            return pair[1];
-          }
-        }
-        return (false);
-      } catch (e) {
+  <script async="" src="./assets/js/ins.js"></script>
 
-      }
-    }
-  </script>
-  <script type="text/javascript">
-    var flag = 0;
-    if (flag == 0) {
-      var script = document.createElement("script");
-      script.type = "text/javascript";
-      script.src = "../config/change.js?v=" + getQueryVariable("v");
-      document.body.appendChild(script);
-      flag = 1;
-    }
-  </script>
+  <script async="" custom-element="amp-web-push" src="./assets/js/amp-web-push-0.1.js"></script>
+  <amp-web-push id="amp-web-push" layout="nodisplay" helper-iframe-url="/helper-iframe.html?partnerName=gogogadgetsnl"
+    permission-dialog-url="/permission-dialog.html?partnerName=gogogadgetsnl-NAME&amp;lang=en_US&amp;isMobile=true&amp;amp=true&amp;VAPIDPublicKey=PARTNER_VAPID_PUBLIC_KEY"
+    service-worker-url="/static/insider-sw-sdk.js"></amp-web-push>
+
+
+
+  <script src="./assets/js/main.js"></script>
+
+
 </body>
 
 </html>
