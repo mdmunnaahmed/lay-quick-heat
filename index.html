@@ -229,7 +229,7 @@
             Order now &amp; Save Up To 70%
             <img src="./assets/images/btn-arw.png" class="btn-arw" width="34" height="33"></a>
           <div class="btn-txt">
-            <p class="btn-text1">Ships by <span>Oct 17</span></p>
+            <p class="btn-text1">Ships by <span></span></p>
             |
             <p class="btn-text2">
               <img src="./assets/images/Shape.png" class="hourglass" width="10" height="14"> Stock:
@@ -243,6 +243,22 @@
       </div>
     </div>
   </div>
+
+  <script>
+document.addEventListener("DOMContentLoaded", function() {
+    const date = new Date();
+    const options = { month: 'short' }; // Get short month name like 'Oct'
+    const month = date.toLocaleString('en-US', options); // Use locale to get the month name
+    const day = date.getDate();
+    const formattedDate = `${month} ${day}`; // Format as 'Oct 18'
+    
+    document.querySelectorAll('.btn-text1 span').forEach(span => {
+        span.innerHTML = formattedDate; // Update innerHTML of each matched span element
+    });
+});
+
+
+  </script>
 
   <div class="ftrSec">
     <div class="container">
